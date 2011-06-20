@@ -7,10 +7,10 @@ https://github.com/mishoo/UglifyJS
 from webbundle import cssbundle, jsbundle
 
 jsfiles = [
-    'static/spreadshirtapi.js',
-    'static/simplomat.js',
-    'static/customsimplomat.js',
-    'static/jquery.magnifier.js',
-    'static/dragtoshirt.js',
+    'spreadshirtapi.js',
+    'simplomat.js',
+    'customsimplomat.js',
+    'jquery.magnifier.js',
+    'dragtoshirt.js',
 ]
-jsbundle(jsfiles, 'static/jquery.dragtoshirt.js', engine='uglifyjs', verbose=True)
+jsbundle(jsfiles, 'jquery.dragtoshirt.js', engine='uglifyjs', verbose=True)
